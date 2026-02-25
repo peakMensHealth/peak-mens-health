@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Peak Men's Health</title>
+<meta name="description" content="Get in touch with the Peak Men's Health editorial team — questions, corrections, or partnership inquiries.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://peakmenshealth.github.io/peak-mens-health/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0b1a2f;--gold:#c8922a;--gold-light:#f0b940;--cream:#faf7f2;--text:#1c2333;--muted:#5a6478;--white:#fff;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--text);}
+.header{background:var(--navy);border-bottom:3px solid var(--gold);position:sticky;top:0;z-index:100;}
+.header-inner{max-width:1200px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+.logo{font-family:'Playfair Display',serif;font-size:1.6rem;font-weight:900;color:var(--white);text-decoration:none;}
+.logo span{color:var(--gold-light);}
+.nav{display:flex;gap:20px;flex-wrap:wrap;}
+.nav a{color:#b0c4de;text-decoration:none;font-weight:600;font-size:0.88rem;transition:.2s;}
+.nav a:hover{color:var(--gold-light);}
+.nav .hl{background:var(--gold);color:var(--navy)!important;padding:5px 14px;border-radius:30px;}
+.page-hero{background:linear-gradient(135deg,#071323 0%,#0e2a40 100%);padding:56px 24px;color:var(--white);}
+.hero-inner{max-width:800px;margin:0 auto;}
+.breadcrumb{font-size:0.82rem;color:#7a90a8;margin-bottom:16px;}
+.breadcrumb a{color:#7a90a8;text-decoration:none;}
+.breadcrumb a:hover{color:var(--gold-light);}
+.page-hero h1{font-family:'Playfair Display',serif;font-size:2.4rem;margin-bottom:10px;}
+.page-hero p{color:#9ab8d4;font-size:0.95rem;}
+.content{max-width:800px;margin:0 auto;padding:56px 24px;}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:48px;}
+.contact-card{background:var(--white);border-radius:18px;padding:28px;border:1px solid #eaecf0;text-align:center;}
+.contact-card .cc-icon{font-size:2.4rem;margin-bottom:12px;}
+.contact-card h3{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--navy);margin-bottom:8px;}
+.contact-card p{font-size:0.9rem;color:var(--muted);line-height:1.65;margin-bottom:14px;}
+.contact-card a{color:var(--gold);font-weight:700;text-decoration:none;font-size:0.95rem;}
+.contact-card a:hover{text-decoration:underline;}
+.form-section{background:var(--white);border-radius:20px;padding:40px;border:1px solid #eaecf0;margin-bottom:40px;}
+.form-section h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--navy);margin-bottom:8px;}
+.form-section p{font-size:0.95rem;color:var(--muted);margin-bottom:28px;line-height:1.7;}
+.form-group{margin-bottom:20px;}
+.form-group label{display:block;font-weight:600;color:var(--navy);font-size:0.9rem;margin-bottom:7px;}
+.form-group input,
+.form-group select,
+.form-group textarea{width:100%;padding:12px 16px;border:1px solid #dce0e8;border-radius:10px;font-family:'Source Sans 3',sans-serif;font-size:0.95rem;color:var(--text);background:var(--cream);transition:.2s;outline:none;}
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus{border-color:var(--gold);background:var(--white);box-shadow:0 0 0 3px rgba(200,146,42,.1);}
+.form-group textarea{resize:vertical;min-height:140px;}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+.submit-btn{display:inline-flex;align-items:center;gap:10px;background:var(--gold);color:var(--navy);font-weight:700;font-size:1rem;padding:14px 36px;border-radius:50px;border:none;cursor:pointer;transition:.2s;font-family:'Source Sans 3',sans-serif;}
+.submit-btn:hover{background:var(--gold-light);transform:translateY(-2px);}
+.success-msg{display:none;background:#e8f5e9;border:2px solid #4caf50;border-radius:12px;padding:18px 22px;margin-top:20px;color:#1b5e20;font-weight:600;}
+.note{background:#f8f9fb;border-radius:12px;padding:20px 24px;font-size:0.88rem;color:var(--muted);line-height:1.7;}
+.note strong{color:var(--navy);}
+.footer{background:#060f1c;color:#7a90a8;padding:40px 24px 24px;}
+.footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:32px;}
+.footer-brand .logo{display:block;margin-bottom:10px;}
+.footer-brand p{font-size:0.88rem;line-height:1.65;}
+.footer-col h4{color:var(--white);font-weight:700;margin-bottom:14px;font-size:0.88rem;text-transform:uppercase;letter-spacing:.5px;}
+.footer-col a{display:block;color:#7a90a8;text-decoration:none;margin-bottom:9px;font-size:0.88rem;transition:.2s;}
+.footer-col a:hover{color:var(--gold-light);}
+.footer-bottom{border-top:1px solid #1a2a3a;padding-top:20px;text-align:center;font-size:0.8rem;}
+@media(max-width:600px){
+  .page-hero h1{font-size:1.8rem;}
+  .contact-grid{grid-template-columns:1fr;}
+  .form-row{grid-template-columns:1fr;}
+  .form-section{padding:24px;}
+  .footer-inner{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">Peak <span>Men's</span> Health</a>
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <a href="prostate-health.html">Prostate</a>
+      <a href="artigo4-sexual.html">Vitality</a>
+      <a href="artigo-performance.html">Sexual Performance</a>
+      <a href="review-prostadine.html">Prostadine</a>
+      <a href="review-spartamax.html">Sparta Max</a>
+      <a href="Harvard Study/harvard-study.html" class="hl">Harvard Study</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="hero-inner">
+    <nav class="breadcrumb"><a href="index.html">Home</a> › Contact</nav>
+    <h1>Contact Us</h1>
+    <p>Questions, corrections, or partnership inquiries — we read every message.</p>
+  </div>
+</section>
+
+<div class="content">
+
+  <div class="contact-grid">
+    <div class="contact-card">
+      <div class="cc-icon">✏️</div>
+      <h3>Content Corrections</h3>
+      <p>Found an error in one of our articles? We take accuracy seriously and will review and update promptly.</p>
+      <a href="#contact-form">Submit a correction →</a>
+    </div>
+    <div class="contact-card">
+      <div class="cc-icon">🤝</div>
+      <h3>Partnership Inquiries</h3>
+      <p>Interested in working with Peak Men's Health? Use the form below to introduce yourself and your proposal.</p>
+      <a href="#contact-form">Get in touch →</a>
+    </div>
+  </div>
+
+  <div class="form-section" id="contact-form">
+    <h2>Send Us a Message</h2>
+    <p>Fill out the form below and we'll get back to you within 2–3 business days.</p>
+
+    <form id="contactForm" onsubmit="handleSubmit(event)">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="name" placeholder="John Smith" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="subject">Subject</label>
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>Select a topic...</option>
+          <option value="correction">Content correction or update</option>
+          <option value="question">General health question</option>
+          <option value="partnership">Partnership or collaboration</option>
+          <option value="affiliate">Affiliate or advertising inquiry</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Tell us how we can help..." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message →</button>
+      <div class="success-msg" id="successMsg">✅ Message sent! We'll get back to you within 2–3 business days.</div>
+    </form>
+  </div>
+
+  <div class="note">
+    <strong>Please note:</strong> We are not medical professionals and cannot provide personalized medical advice. If you have a health concern, please consult a qualified physician or urologist. For urgent health matters, contact your doctor or call emergency services.
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">Peak <span>Men's</span> Health</a>
+      <p>Science-informed vitality for the modern man over 40.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Prostate Health</h4>
+      <a href="artigo1-prostata.html">Enlarged Prostate</a>
+      <a href="artigo2-prostata.html">Nocturia & Sleep</a>
+      <a href="artigo3-prostata.html">Prostate Diet</a>
+      <a href="artigo7-prostata.html">Supplement Guide</a>
+      <a href="review-prostadine.html">Prostadine Review</a>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="contact.html">Contact</a>
+      <a href="Harvard Study/harvard-study.html">Harvard Study</a>
+    </div>
+  </div>
+  <div class="footer-bottom">© <script>document.write(new Date().getFullYear())</script> Peak Men's Health. All rights reserved.</div>
+</footer>
+
+<script>
+function handleSubmit(e) {
+  e.preventDefault();
+  // Show success message (static site — no backend)
+  document.getElementById('successMsg').style.display = 'block';
+  document.getElementById('contactForm').reset();
+  setTimeout(() => {
+    document.getElementById('successMsg').style.display = 'none';
+  }, 6000);
+}
+</script>
+
+</body>
+</html>
