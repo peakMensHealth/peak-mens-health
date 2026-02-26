@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://peakmenshealth.github.io/peak-mens-health/sitemap.xml
