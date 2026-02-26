@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
 <title>Harvard Scientists Discover the Real Cause of Prostate Problems: What Men Over 40 Need to Know | Peak Men's Health</title>
 <meta name="description" content="A landmark discovery links toxic mineral buildup from US tap water to prostate enlargement. Here's what Harvard researchers found, what it means for your health, and what you can do about it.">
 <meta name="keywords" content="Harvard prostate study, tap water prostate problems, hard water prostate enlargement, toxic minerals prostate, BPH root cause">
-<link rel="canonical" href="https://peakmenshealth.github.io/peak-mens-health/harvard-study.html">
+<link rel="canonical" href="https://peakmenshealth.github.io/peak-mens-health/Harvard%20Study/harvard-study.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -65,14 +66,14 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 
 <header class="header">
   <div class="header-inner">
-    <a href="index.html" class="logo">Peak <span>Men's</span> Health</a>
+    <a href="../index.html" class="logo">Peak <span>Men's</span> Health</a>
     <nav class="nav">
-      <a href="index.html">Home</a>
-      <a href="artigo1-prostata.html">Prostate</a>
-      <a href="artigo4-sexual.html">Vitality</a>
-      <a href="artigo-performance.html">Sexual Performance</a>
-      <a href="review-prostadine.html">Prostadine</a>
-      <a href="review-spartamax.html">Sparta Max</a>
+      <a href="../index.html">Home</a>
+      <a href="../prostate-health.html">Prostate</a>
+      <a href="../artigo4-sexual.html">Vitality</a>
+      <a href="../artigo-performance.html">Sexual Performance</a>
+      <a href="../review-prostadine.html">Prostadine</a>
+      <a href="../review-spartamax.html">Sparta Max</a>
       <a href="harvard-study.html">Harvard Study</a>
     </nav>
   </div>
@@ -80,7 +81,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 
 <section class="article-hero">
   <div class="article-hero-inner">
-    <div class="breadcrumb"><a href="index.html">Home</a> › Research</div>
+    <div class="breadcrumb"><a href="../index.html">Home</a> › Research</div>
     <div class="article-tag">⚠️ Breaking Research</div>
     <h1>Harvard Scientists Discover the Real Cause of Prostate Problems — And It's in Your Tap Water</h1>
     <div class="article-meta">
@@ -177,7 +178,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
   <h3>🌿 A Formula Designed Around This Research</h3>
   <p>Prostadine was specifically formulated around the emerging science on mineral buildup and prostate dysfunction. Its unique combination of marine-derived algae extracts (kelp, wakame, bladderwrack, Nori Yaki) provides natural alginates and fucoidan that support mineral detoxification, while Shilajit's fulvic acid provides additional chelating support. Saw palmetto and pomegranate address the resulting inflammation and cellular changes.</p>
   <p style="margin-top:10px;font-size:.9rem;color:var(--muted);">It's not a cure — but it addresses the emerging root cause in a way that standard BPH supplements don't. 60-day money-back guarantee.</p>
-  <a href="review-prostadine.html" class="btn-gold">Read Our Full Prostadine Review →</a>
+  <a href="../review-prostadine.html" class="btn-gold">Read Our Full Prostadine Review →</a>
 </div>
 
 <h2>What About Water Softeners?</h2>
@@ -206,7 +207,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 </div>
 
 <div class="sources">
-  <strong>Sources & References</strong>
+  <strong>Sources &amp; References</strong>
   Khan SR, Pearle MS, Robertson et al. Kidney stones. Nature Reviews Disease Primers. 2016.<br>
   Harvard T.H. Chan School of Public Health. Water quality research publications. 2020–2025.<br>
   American Society of Civil Engineers. 2021 Report Card for America's Infrastructure.<br>
@@ -222,15 +223,15 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
 <footer class="footer">
   <div class="footer-inner">
     <div class="footer-brand">
-      <a href="index.html" class="logo">Peak <span>Men's</span> Health</a>
+      <a href="../index.html" class="logo">Peak <span>Men's</span> Health</a>
       <p>Science-informed vitality for the modern man over 40.</p>
     </div>
     <div class="footer-links">
-      <a href="index.html">Home</a>
-      <a href="artigo1-prostata.html">Enlarged Prostate</a>
-      <a href="artigo-performance.html">Sexual Performance</a>
-      <a href="review-prostadine.html">Prostadine Review</a>
-      <a href="artigo4-sexual.html">Male Vitality</a>
+      <a href="../index.html">Home</a>
+      <a href="../prostate-health.html">Prostate</a>
+      <a href="../artigo-performance.html">Sexual Performance</a>
+      <a href="../review-prostadine.html">Prostadine Review</a>
+      <a href="../artigo4-sexual.html">Male Vitality</a>
     </div>
   </div>
   <div class="footer-bottom">© 2026 Peak Men's Health. All rights reserved.</div>
