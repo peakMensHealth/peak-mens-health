@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -169,7 +170,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
       <a href="artigo-performance.html">Sexual Performance</a>
       <a href="review-prostadine.html">Prostadine</a>
       <a href="review-spartamax.html">Sparta Max</a>
-      <a href="Harvard Study/harvard-study.html" class="hl">Harvard Study</a>
+      <a href="Harvard%20Study/harvard-study.html" class="hl">Harvard Study</a>
     </nav>
   </div>
 </header>
@@ -181,7 +182,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
     <p>We translate clinical research into clear, actionable guidance — on prostate health, sexual performance, and male vitality. No fluff. No scare tactics. Just the evidence.</p>
     <div class="hero-btns">
       <a href="prostate-health.html" class="btn-primary">Explore Prostate Health →</a>
-      <a href="Harvard Study/harvard-study.html" class="btn-secondary">Read the Harvard Study</a>
+      <a href="Harvard%20Study/harvard-study.html" class="btn-secondary">Read the Harvard Study</a>
     </div>
     <div class="hero-stats">
       <div class="hero-stat"><div class="num" id="total-count">—</div><div class="lbl">In-depth articles</div></div>
@@ -243,7 +244,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
       <p>Researchers found a striking correlation between hard water consumption and prostate disease rates in American men — pointing to a mineral accumulation mechanism that most doctors never discuss.</p>
     </div>
     <div class="harvard-cta">
-      <a href="Harvard Study/harvard-study.html" class="h-btn">Read the Full Study →</a>
+      <a href="Harvard%20Study/harvard-study.html" class="h-btn">Read the Full Study →</a>
       <p>Free — no signup required</p>
     </div>
   </div>
@@ -299,7 +300,13 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
     </div>
     <div class="footer-col">
       <h4>Prostate Health</h4>
-      <div id="footer-prostate-links"></div>
+      <div id="footer-prostate-links">
+        <a href="prostate-health.html">All Prostate Articles</a>
+        <a href="artigo2-prostata.html">BPH &amp; Urinary Health</a>
+        <a href="artigo3-prostata.html">PSA Testing Guide</a>
+        <a href="artigo4-prostata.html">Prostate Diet</a>
+        <a href="artigo5-prostata.html">Supplements &amp; Prostate</a>
+      </div>
     </div>
     <div class="footer-col">
       <h4>More</h4>
@@ -307,7 +314,7 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
       <a href="artigo4-sexual.html">Male Vitality</a>
       <a href="review-prostadine.html">Prostadine Review</a>
       <a href="review-spartamax.html">Sparta Max Review</a>
-      <a href="Harvard Study/harvard-study.html">Harvard Study</a>
+      <a href="Harvard%20Study/harvard-study.html">Harvard Study</a>
       <a href="privacy-policy.html">Privacy Policy</a>
       <a href="disclaimer.html">Disclaimer</a>
       <a href="contact.html">Contact</a>
@@ -346,11 +353,14 @@ body{font-family:'Source Sans 3',sans-serif;background:var(--cream);color:var(--
       </div>
     </a>`).join('');
 
-  document.getElementById('footer-prostate-links').innerHTML =
-    prostateArticles
-      .sort((a,b) => new Date(a.date) - new Date(b.date))
-      .map(a => `<a href="${a.url}">${a.title.split(':')[0]}</a>`)
-      .join('');
+  // Override footer prostate links with dynamic data if available
+  if (prostateArticles.length > 0) {
+    document.getElementById('footer-prostate-links').innerHTML =
+      prostateArticles
+        .sort((a,b) => new Date(a.date) - new Date(b.date))
+        .map(a => `<a href="${a.url}">${a.title.split(':')[0]}</a>`)
+        .join('');
+  }
 
   document.getElementById('footer-year').innerHTML =
     `© ${new Date().getFullYear()} Peak Men's Health. All rights reserved. | Results may vary. Individual results not guaranteed.`;
